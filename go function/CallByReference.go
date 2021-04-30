@@ -13,7 +13,7 @@ func swap(a, b *int) int {
 
 func main() {
 
-	var p int = 10
+	var p int = 20
 	var q int = 20
 	fmt.Printf("p = %d and q = %d", p, q)
 
