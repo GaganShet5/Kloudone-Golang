@@ -17,6 +17,6 @@ func entry(lang *string, aname *string) {
 
 func main() {
 	A_lang := "GO Language"
-	defer fmt.Println("Defer statement in the Main function")
+	defer fmt.Println("Defer statement in Main function")
 	entry(&A_lang, nil)
 }

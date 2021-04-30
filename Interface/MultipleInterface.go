@@ -33,7 +33,7 @@ func main() {
 	e := Employee{
 		firstName:   "Ram",
 		lastName:    "Sham",
-		basicPay:    15000,
+		basicPay:    1500000,
 		pf:          2300,
 		totalLeaves: 30,
 		leavesTaken: 2,
