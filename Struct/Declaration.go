@@ -12,7 +12,7 @@ func main() {
 	var a Address
 	fmt.Println(a)
 
-	a1 := Address{"Shanker", "Bangalore", 123478}
+	a1 := Address{"Shanker", "Mangalore", 123478}
 	fmt.Println("Address1: ", a1)
 
 	a2 := Address{Name: "Teju", city: "sullia", Pincode: 7894331}

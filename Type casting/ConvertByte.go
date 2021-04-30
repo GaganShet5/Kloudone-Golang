@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var s string = "Hello World"
+	var s string = " Hello World "
 	var b []byte = []byte(s) // convert ty bytes
 
 	fmt.Println(b)
