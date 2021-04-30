@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
-	"strings"
 	"bufio"
+	"fmt"
 	"log"
 	"net"
 	"os"
@@ -29,9 +28,8 @@ func main() {
 	logFatal(err)
 
 	username = strings.Trim(username, "\r\n")
-	msg := fmt.Sprintf("READY TO CHAT WITH %s",username)
-	fmt.Println(msg )
-
+	msg := fmt.Sprintf("READY TO CHAT WITH %s", username)
+	fmt.Println(msg)
 	go Read(connection)
 	Write(connection, username)
 

@@ -26,9 +26,9 @@ func (s *Stack) Pop() (string, bool) {
 func main() {
 	var stack Stack // create a stack variable of type Stack
 
-	stack.Push("Hai")
-	stack.Push("Hello")
-	stack.Push("How are you")
+	stack.Push("Hai Ram")
+	stack.Push("Hello Ram")
+	stack.Push("How are you Guys")
 
 	for len(stack) > 0 {
 		x, y := stack.Pop()
