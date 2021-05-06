@@ -17,6 +17,6 @@ func print_two(n int) {
 	}
 }
 func main() {
-	print_one(10)
+	print_one(11)
 	print_one(-1)
 }

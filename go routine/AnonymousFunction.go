@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	fmt.Println("Welcome to Chennai")
+	fmt.Println("Welcome to India")
 
 	go func() {
 

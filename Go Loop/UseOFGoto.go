@@ -8,7 +8,7 @@ func main() {
 
 	/* do loop execution */
 LOOP:
-	for a < 20 {
+	for a < 25 {
 		if a == 15 {
 
 			a = a + 1

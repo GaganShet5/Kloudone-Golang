@@ -7,7 +7,7 @@ func main() {
 	var ptr *int
 	var pptr **int
 
-	a = 3000
+	a = 3001
 
 	ptr = &a
 
