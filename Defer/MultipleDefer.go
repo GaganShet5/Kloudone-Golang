@@ -10,6 +10,6 @@ func add(a1, a2 int) int {
 func main() {
 	fmt.Println("Start")
 	defer fmt.Println("End")
-	defer add(34, 22)
+	defer add(15, 22)
 	defer add(10, 10)
 }
