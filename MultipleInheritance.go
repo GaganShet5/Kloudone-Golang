@@ -25,7 +25,7 @@ func main() {
 	n1 := Student1{
 
 		Teacher{
-			name: "Ganesh Shet",
+			name: "Rama",
 		},
 	}
 	fmt.Println("Name is:", n1.Name())
