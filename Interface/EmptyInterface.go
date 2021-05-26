@@ -16,7 +16,7 @@ func main() {
 	strt := struct {
 		name string
 	}{
-		name: "GAGAN S",
+		name: "Krish",
 	}
 	describe(strt)
 }

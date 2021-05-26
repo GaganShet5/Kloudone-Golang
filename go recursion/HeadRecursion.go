@@ -11,5 +11,5 @@ func print_num(n int) {
 	}
 }
 func main() {
-	print_num(5)
+	print_num(8)
 }

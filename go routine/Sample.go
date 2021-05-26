@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func display(str string) {
-	for w := 0; w < 5; w++ {
+	for w := 0; w < 6; w++ {
 		fmt.Println(str)
 	}
 }

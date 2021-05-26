@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	re := regexp.MustCompile("he")
+	re := regexp.MustCompile("hem")
 	fmt.Println(re.FindStringIndex("hellomotto"))
 	fmt.Println(re.FindStringIndex("heman"))
 	fmt.Println(re.FindStringIndex("washe"))

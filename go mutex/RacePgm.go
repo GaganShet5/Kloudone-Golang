@@ -16,7 +16,7 @@ func increment(wg *sync.WaitGroup, m *sync.Mutex) {
 func main() {
 	var w sync.WaitGroup
 	var m sync.Mutex
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < 1001; i++ {
 		w.Add(1)
 		go increment(&w, &m)
 	}

@@ -9,5 +9,5 @@ func fact(n int) int {
 	return n * fact(n-1)
 }
 func main() {
-	fmt.Println(fact(10))
+	fmt.Println(fact(15))
 }

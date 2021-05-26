@@ -11,7 +11,7 @@ func show() {
 	fmt.Println("Good Morning")
 }
 func main() {
-	mul(18, 27)
+	mul(14, 27)
 	defer mul(23, 56)
 	show()
 }

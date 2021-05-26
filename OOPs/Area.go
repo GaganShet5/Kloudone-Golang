@@ -39,7 +39,7 @@ type Area interface {
 }
 
 func main() {
-	t := Triangle{base: 22, height: 88}
+	t := Triangle{base: 27, height: 88}
 	s := Square{length: 5}
 	r := Rectangle{length: 7, width: 18}
 	c := Circle{radius: 5}

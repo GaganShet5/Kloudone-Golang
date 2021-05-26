@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	arr := [7]string{"This", "is", "the", "tasks",
+	arr := [7]string{"This", "hello", "the", "tasks",
 		"of", "Go", "language"}
 
 	fmt.Println("Array:", arr)

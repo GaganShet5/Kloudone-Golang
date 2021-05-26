@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	b := 240
+	b := 24
 	a := &b
 	fmt.Println("address of b is", a)
 	fmt.Println("value of b is", *a)

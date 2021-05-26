@@ -1,19 +1,18 @@
+package main
 
-package main 
-  
-import ( 
-    "fmt"
-    "strings"
-) 
-  
-func main() { 
+import (
+	"fmt"
+	"strings"
+)
 
-    s:= []string{"gagan", "shet", "sullia"} 
-  
-    for x := 0; x < len(s); x++ { 
-  
-        res := strings.ToUpper(s[x]) 
+func main() {
 
-        fmt.Println(res) 
-    } 
-} 
+	s := []string{"gagan", "shet", "sullia"}
+
+	for x := 0; x < len(s); x++ {
+
+		res := strings.ToUpper(s[x])
+
+		fmt.Println(res)
+	}
+}

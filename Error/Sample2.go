@@ -9,7 +9,7 @@ func main() {
 	files, err := filepath.Glob("[")
 	if err != nil {
 		if err == filepath.ErrBadPattern {
-			fmt.Println("Bad pattern :", err)
+			fmt.Println("Bad pattern:", err)
 			return
 		}
 		fmt.Println("Generic error:", err)

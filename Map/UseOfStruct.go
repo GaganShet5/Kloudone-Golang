@@ -15,7 +15,7 @@ func main() {
 		country: "India",
 	}
 	emp2 := employee{
-		salary:  14000,
+		salary:  140000,
 		country: "India",
 	}
 	emp3 := employee{

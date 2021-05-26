@@ -8,7 +8,7 @@ func main() {
 	employeeSalary := map[string]int{
 		"Keshav": 12000,
 		"Hari":   15000,
-		"Kumar":  9000,
+		"Kumar":  90000,
 	}
 	fmt.Println("map before deletion", employeeSalary)
 	delete(employeeSalary, "Hari")
