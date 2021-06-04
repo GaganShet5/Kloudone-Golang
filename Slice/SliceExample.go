@@ -9,7 +9,7 @@ func main() {
 
 	fmt.Println("Array:", arr)
 
-	myslice := arr[1:6]
+	myslice := arr[1:7]
 
 	fmt.Println("Slice:", myslice)
 

@@ -19,6 +19,6 @@ func largest(nums []int) {
 	fmt.Println("Largest number in", nums, "is", max)
 }
 func main() {
-	nums := []int{782, 801, 2000, 100, 300}
+	nums := []int{782, 102, 2000, 100, 300}
 	largest(nums)
 }

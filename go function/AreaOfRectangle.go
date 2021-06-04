@@ -11,5 +11,5 @@ func area(length, width int) int {
 func main() {
 
 	// with method calling
-	fmt.Printf("Area of rectangle is : %d", area(12, 10))
+	fmt.Printf("Area of rectangle is : %d", area(11, 10))
 }

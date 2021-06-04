@@ -10,5 +10,5 @@ func display(str string) {
 
 func main() {
 	go display("Welcome")
-	display("Happy Deepavali")
+	display("Happy Diwali")
 }

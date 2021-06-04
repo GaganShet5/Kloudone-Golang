@@ -11,7 +11,7 @@ func describe(i interface{}) {
 func main() {
 	s := "Empty Interface"
 	describe(s)
-	i := 55
+	i := 5
 	describe(i)
 	strt := struct {
 		name string

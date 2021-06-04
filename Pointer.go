@@ -7,7 +7,7 @@ func main() {
 
 	// using := operator to declare
 	// and initialize the variable
-	y := 15
+	y := 10
 
 	// taking a pointer variable using
 	// := by assigning it with the

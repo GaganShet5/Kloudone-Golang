@@ -6,9 +6,9 @@ import (
 
 func main() {
 	employeeSalary := map[string]int{
-		"Ram":     1200000,
-		"Hari":    1500000,
-		"Krishna": 9000000,
+		"Ram":     120000,
+		"Hari":    150000,
+		"Krishna": 900000,
 	}
 	employee := "Hari"
 	salary := employeeSalary[employee]

@@ -15,7 +15,7 @@ func (p person) fullName() {
 
 func main() {
 	p := person{
-		firstName: "Ramu",
+		firstName: "Ram",
 		lastName:  "Singh",
 	}
 	defer p.fullName()

@@ -32,7 +32,7 @@ func UsersLogin(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusBadRequest, gin.H{
-		"error": "There was an error authenticating.",
+		"error": "There was an error authenticating",
 	})
 }
 

@@ -35,7 +35,7 @@ func zigzag(n int) []int {
 }
 
 func main() {
-	num := 5
+	num := 8
 	len := 2
 	for i, draw := range zigzag(num) {
 		fmt.Printf("%*d ", len, draw)

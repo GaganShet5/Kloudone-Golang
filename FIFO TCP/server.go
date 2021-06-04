@@ -87,16 +87,16 @@ func Store(conn net.Conn) {
 				for e := x[username].Front(); e != nil; e = e.Next() {
 					fmt.Print(e.Value)
 				}
-				fmt.Println("========================")
+				fmt.Println("====================")
 
 			} else {
 				x[username] = list.New()
 				x[username].PushBack(message)
-				fmt.Println("The Messages Fom",username,"is")
+				fmt.Println("The Messages Fom", username, "is")
 				for e := x[username].Front(); e != nil; e = e.Next() {
 					fmt.Print(e.Value)
 				}
-				fmt.Println("=========================")
+				fmt.Println("===================")
 
 			}
 
@@ -111,7 +111,7 @@ func Store(conn net.Conn) {
 func first(connection net.Conn, username string) {
 	first := x[username].Front().Value
 	first_msg := fmt.Sprintf("First Message:- %v", first)
-	
+
 	connection.Write([]byte(first_msg))
 	fmt.Println("first Function Called", first)
 }
@@ -119,7 +119,7 @@ func first(connection net.Conn, username string) {
 func last(connection net.Conn, username string) {
 	first := x[username].Back().Value
 	first_msg := fmt.Sprintf("Last Message:- %v", first)
-	
+
 	connection.Write([]byte(first_msg))
 	fmt.Println("Last Function Called", first)
 }

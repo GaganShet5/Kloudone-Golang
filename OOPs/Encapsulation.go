@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	s := []string{"gagan", "shet", "sullia"}
+	s := []string{"gagan", "sullia"}
 
 	for x := 0; x < len(s); x++ {
 

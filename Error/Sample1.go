@@ -12,7 +12,7 @@ func main() {
 			fmt.Println("Failed to open file at path", pErr.Path)
 			return
 		}
-		fmt.Println("Generic error", err)
+		fmt.Println("Generic errors", err)
 		return
 	}
 	fmt.Println(f.Name(), "opened successfully")

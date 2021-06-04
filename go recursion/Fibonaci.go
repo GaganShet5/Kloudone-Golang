@@ -13,7 +13,7 @@ func fibonaci(i int) (ret int) {
 }
 func main() {
 	var i int
-	for i = 0; i < 10; i++ {
+	for i = 0; i < 11; i++ {
 		fmt.Printf("%d ", fibonaci(i))
 	}
 }

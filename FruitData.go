@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+
 	"github.com/gin-gonic/gin"
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -23,18 +24,17 @@ func Conn() (db *sql.DB) {
 }
 
 type Fruit struct {
-	Fid          int64  `json:"fid"`
-	Fruitname    string `json:"fruitname"`
-	Rate         string  `json:"rateperkg"`
+	Fid       int64  `json:"fid"`
+	Fruitname string `json:"fruitname"`
+	Rate      string `json:"rateperkg"`
 	//Rank         string `json:"rank"`
-	Benefits     string `json:"benefits"`
-	
+	Benefits string `json:"benefits"`
 }
 
 func HomePage(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"Project Name":  "Fruits Database",
-		"Done By": "GAGAN",
+		"Project Name": "Fruits Database",
+		"Done By":      "GAGAN",
 	})
 }
 

@@ -11,7 +11,7 @@ func main() {
 	flag.Parse()
 	data, err := ioutil.ReadFile(*fptr)
 	if err != nil {
-		fmt.Println("File reading error", err)
+		fmt.Println("File reading errors", err)
 		return
 	}
 	fmt.Println("Contents of file:", string(data))

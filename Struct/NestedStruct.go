@@ -14,7 +14,7 @@ type HR struct {
 
 func main() {
 	result := HR{
-		details: Author{"Arjun", "CS", 2020},
+		details: Author{"Arjun", "CS", 2010},
 	}
 	fmt.Println("\nDetails of Author")
 	fmt.Println(result)
