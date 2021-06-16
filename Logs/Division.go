@@ -16,7 +16,7 @@ func divide(a float32, b float32) (float32, error) {
 
 func main() {
 
-	var a float32 = 15
+	var a float32 = 20
 	var b float32
 
 	ret, err := divide(a, b)

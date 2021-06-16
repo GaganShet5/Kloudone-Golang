@@ -24,9 +24,9 @@ func findType(i interface{}) {
 }
 
 func main() {
-	findType("Krish")
+	findType("Krishna")
 	p := Person{
-		name: "Krish",
+		name: "Krishna",
 		age:  21,
 	}
 	findType(p)

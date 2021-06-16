@@ -12,7 +12,6 @@ func main() {
 	for x := 0; x < len(s); x++ {
 
 		res := strings.ToUpper(s[x])
-
 		fmt.Println(res)
 	}
 }

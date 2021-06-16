@@ -15,7 +15,7 @@ func findType(i interface{}) {
 	}
 }
 func main() {
-	findType("Krish")
+	findType("Krishna")
 	findType(99)
 	findType(89.98)
 }

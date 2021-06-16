@@ -9,7 +9,7 @@ type Car struct {
 
 func main() {
 	c := Car{Name: "Ferrari", Model: "GTC4",
-		Color: "Red", WeightInKg: 1920}
+		Color: "Orange", WeightInKg: 1920}
 
 	fmt.Println("Car Name: ", c.Name)
 	fmt.Println("Car Color: ", c.Color)

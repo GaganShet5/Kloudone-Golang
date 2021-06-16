@@ -9,6 +9,6 @@ func display(str string) {
 }
 
 func main() {
-	go display("Welcome")
+	go display(" Welcome ")
 	display("Happy Diwali")
 }

@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	arr := [5]int{2, 3, 4, 8, 9}
+	arr := [5]int{2, 3, 6, 8, 9}
 
 	fmt.Println("Array:", arr)
 
